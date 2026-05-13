@@ -1,0 +1,9 @@
+{
+  "name": "video-editor",
+  "description": "Educational video editing tools — transcription, filler removal, subtitles",
+  "skills": [
+    { "name": "transcribe", "path": "skills/transcribe/SKILL.md" },
+    { "name": "removefiller", "path": "skills/removefiller/SKILL.md" },
+    { "name": "subtitle", "path": "skills/subtitle/SKILL.md" }
+  ]
+}

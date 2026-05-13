@@ -1,6 +1,6 @@
 # video-editor
 
-Educational video editing tools — transcription, filler removal, subtitles. Works with Chinese and English audio.
+Video editing tools — transcription, filler removal, subtitles. Works with Chinese and English audio.
 
 ## Installation
 

@@ -39,8 +39,8 @@ def activate():
     check_prerequisites()
     venv_python = ensure_venv()
 
-    # Already running inside the venv
-    if os.path.realpath(sys.executable) == os.path.realpath(venv_python):
+    # Already running inside the venv (check sys.prefix instead of executable in case of symlinks)
+    if os.path.normpath(sys.prefix) == os.path.normpath(VENV_DIR):
         return
 
     # Re-exec the calling script under the venv Python
